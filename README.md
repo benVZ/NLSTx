@@ -4,7 +4,7 @@ This repository hosts the NLSTx dataset, as introduced in:
 **B. Veasey et al., "Lung nodule malignancy classification based on NLSTx Data," in Proc. IEEE 17th Int. Symp. on Biomedical Imaging (ISBI), pp. 1870–1874, IEEE, 2020.** 
 
 The dataset is officially released as part of the publication:  
-**[2] B. Veasey and A.A. Amini., "Low-Rank Adaptation of Pre-trained Large Vision Models for Improved Lung Nodule Malignancy Classification," IEEE Open J. Eng. Med. Biol., 2025.**
+**B. Veasey and A.A. Amini., "Low-Rank Adaptation of Pre-trained Large Vision Models for Improved Lung Nodule Malignancy Classification," IEEE Open J. Eng. Med. Biol., 2025.**
 
 ---
 
