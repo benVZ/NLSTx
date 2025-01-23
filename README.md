@@ -15,7 +15,7 @@ The NLSTx dataset was derived from the National Lung Screening Trial (NLST), whi
 - **Malignant Nodules**: Nodules that appeared benign during initial screenings but were later confirmed as malignant through biopsy.
 - **Benign Nodules**: Nodules associated with subjects who had only a single nodule reported in the NLST clinical notes, ensuring accurate matching of clinical and imaging data.
 
-Radiologists annotated the dataset using anatomical locations provided in the NLST clinical notes to identify specific, pixel-level nodule locations. Each nodule is marked with a bounding box on the axial slice with the largest diameter.
+Radiologists annotated the dataset using anatomical locations provided in the NLST clinical notes to identify specific, pixel-level nodule locations. Each nodule is marked with a bounding box on the axial slice with the largest diameter. To use this dataset, you must first download the raw NLST CT images that are freely available by request at [https://www.cancerimagingarchive.net/collection/nlst/]. The NLSTx dataset can then be generated using the pixel-level nodule locations in this repo.
 
 ### Dataset Summary
 
@@ -47,19 +47,19 @@ If you use this dataset in your work, please cite the following papers:
 1. **NLSTx Introduction**:  
    ```bibtex
    @inproceedings{veasey2020nlstx,
-     author    = {B. Veasey and M.M. Farhangi and H. Frigui and J. Broadhead and M. Dahle and A. Pezeshk and A. Seow and A. A. Amini},
-     title     = {Lung nodule malignancy classification based on NLSTx Data},
-     booktitle = {Proc. IEEE 17th Int. Symp. on Biomedical Imaging (ISBI)},
-     pages     = {1870--1874},
-     year      = {2020},
-     publisher = {IEEE}
+      author    = {B. Veasey and M.M. Farhangi and H. Frigui and J. Broadhead and M. Dahle and A. Pezeshk and A. Seow and A. A. Amini},
+      title     = {Lung nodule malignancy classification based on NLSTx Data},
+      booktitle = {Proc. IEEE 17th Int. Symp. on Biomedical Imaging (ISBI)},
+      pages     = {1870--1874},
+      year      = {2020},
+      publisher = {IEEE}
    }
 2. **NLSTx Official Release**:  
    ```bibtex
-   @article{veasey2025lora,
-     author    = {B. Veasey and A.A. Amini},
-     title     = {Low-Rank Adaptation of Pre-trained Large Vision Models for Improved Lung Nodule Malignancy Classification},
-     journal   = {IEEE Open J. Eng. Med. Biol. (OJEMB)},
-     year      = {2025},
-     publisher = {IEEE}
+   @article{veasey2025low,
+      author    = {B. Veasey and A.A. Amini},
+      title     = {Low-Rank Adaptation of Pre-trained Large Vision Models for Improved Lung Nodule Malignancy Classification},
+      journal   = {IEEE Open Journal of Engineering in Medicine and Biology},
+      year      = {2025},
+      publisher = {IEEE}
    }
